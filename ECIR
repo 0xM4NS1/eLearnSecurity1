@@ -2,3 +2,68 @@ The main function of us  as incident Response is :
 
 1- Network analysis 
 2- Analysing & detecting
+
+## Communication model type :
+1 - OSI(open System Interconnection)
+  # A - OSI have 7 layer 
+2- TCP/IP 
+  # A -  Its a modern
+
+
+RFC (Request For Comment ) : this is to know if packet normal or upnormal
+
+Tool for traffic analysis Tool : Wireshark / TCP Dump
+
+## Network Access layer / link layer  Protcols :
+  1- 802.3 Ethernet
+  2- 802.11 wireless
+
+#NIC : Network interface card 
+
+# 802.3 ethernet
+Note : The IP layer is responsible for getting the destination Mac address because it supports the ARP protocol. using broad cast 
+
+ARP cache :It's a table that has IP and Mac addresses for every device that I connected to it.
+
+ARP (address resolution protocol ) : this protcol used to now mac address using ip
+Note: neighbor solicitation / advertisement : It's a technique used to know a Mac address.
+MAC (Media access Control ): unique number 48bit (6 byte) to identifi the device 
+
+## The MAC, we can divide it into two parts.
+  1- 3 byte for OUI (Organization unique identifier) the company that makes the network card (ex intel) 
+  2- 3 byte for Network interface specific identifier for the company that makes the computer (ex asus / dell )
+
+## ARP disadvantage :
+  1-The Mac address cannot be validated for ownership. (ARP Spofing)
+  2-ARP is stateless arp replay with out request.(ARP gratuitous)
+  3-ARP shortcoming that makes the attacker do the one in the middle attack
+
+
+## Gratuitous ARP request : This is useful to know if the attacker is impersonating someone else and taking Mac addresses.
+## Gratuitous ARP Reply : sent a reply without request; it always seems like an attack.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
