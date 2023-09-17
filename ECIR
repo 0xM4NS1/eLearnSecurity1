@@ -41,14 +41,17 @@ MAC (Media access Control ): unique number 48bit (6 byte) to identifi the device
 
 ## Gratuitous ARP request : This is useful to know if the attacker is impersonating someone else and taking Mac addresses.
 ## Gratuitous ARP Reply : sent a reply without request; it always seems like an attack.
+## ARP spoofing / poisoning : The attacker can inspect the network trafic
 
+note : ARP requests must have src ip, src mac, and dis ip. ARP reply has all this with dis mac, so the attacker must be in the same network.
 
+how to prevernt arp poisoning :
 
+1 - Preventing the registration of any entry on Arab Cache.
+2- Change the type of saving from dynamic to static in the ARPCache. 
+3- Make arp cache in switch.
 
-
-
-
-
+ARP watch tool : It is used to provide information about people who are trying to make an ARP attack.
 
 
 
