@@ -63,6 +63,48 @@ IP protocol : IP protocol is responsible for routing my data from my device to a
 
 NOTE : ICMP its work in internet layer
 
+## Suspicious Trafic Analysis ##
+
+Note : When some devices send a SYN request without a response SYN\ACK, its called scan operation .
+Note : The same thing happens when a single host sends to multiple ports; it's called a scan or single host to multiple port.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
