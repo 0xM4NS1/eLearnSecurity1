@@ -68,7 +68,21 @@ NOTE : ICMP its work in internet layer
 Note : When some devices send a SYN request without a response SYN\ACK, its called scan operation .
 Note : The same thing happens when a single host sends to multiple ports; it's called a scan or single host to multiple port.
 
+Port [1-1023] for server (Priviledge)
+Port [1023-65535] for client(Unpriviledge)
 
+TCP RST Attack: Someone on their own network wants to distribute the network connection.
+
+TCP Haijacking: 
+
+### ICMP ###
+
+ICMP (Internet control message protocol )
+
+The Main function
+
+1-Testing protocol to ensure connect for two device or troubleshooting protocol 
+2-We can send messages like unicast, multicast, or broadcast.
 
 
 
