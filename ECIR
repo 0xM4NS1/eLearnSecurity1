@@ -84,6 +84,40 @@ The Main function
 1-Testing protocol to ensure connect for two device or troubleshooting protocol 
 2-We can send messages like unicast, multicast, or broadcast.
 
+SMURF Attack :a distributed denial-of-service (DDoS) attack in which an attacker attempts to flood a targeted server with Internet Control Message Protocol (ICMP) packets
+
+ICMP Tunneling : ICMP tunneling is a command-and-control (C2) attack technique that secretly passes malicious traffic through perimeter defenses. 
+Malicious data passing through the tunnel is hidden within normal-looking ICMP echo requests and echo responses.
+
+Net Bios provide three services
+
+1-NBNS(Net Bios Name Service 137 port) : The main function of this service is to translate the name into an IP address.
+
+2-NBDS(Net Bios datagram distribution Service port 138):
+
+3-NBSS(Net Bios Session Service port 139):It used to establish sessions between hosts,open or save file and execute remote files  
+
+
+SMP(Server Message Block):that protocol run in NBSS for transaction operations and over NBDS for service announcement
+Note: Smp run in session layer
+
+### HTTP ###
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
