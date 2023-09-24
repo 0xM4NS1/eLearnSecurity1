@@ -93,13 +93,29 @@ Examples of residual data include
 3 - Data blocks resulting from a move
 4 - Memory
 
-Non-volatile data : All previously mentioned types are considered nonvolatile data, and could be retrieved even if the computer has been turned off.
+# Non-volatile data : All previously mentioned types are considered nonvolatile data, and could be retrieved even if the computer has been turned off.
 
-Volatile Data : The data that resides in RAM and is acquired only when the device is running. Collecting volatile data is a perilous task
+# Volatile Data : The data that resides in RAM and is acquired only when the device is running. Collecting volatile data is a perilous task
 
-Computer Network : The network contains the largest amount of data you could ever analyze
+# Computer Network : The network contains the largest amount of data you could ever analyze
+
+## Digital Evidence should have the following characteristics:
+• Admissibility- accepted in a court
+• Authenticity- relevant to the case
+• Complete- no missing information
 
 
+### Analysis Step ###
+DF analysis is defined as scientific method, which starts by gathering facts from the evidence you have, building a hypothesis to explain an incident, and
+extracting artifacts to prove or refute this hypothesis.
+
+Analysis Step : 
+1- Creating Forensic Image : duplicate of the evidence; a duplicate means it’s bit by bit copying.
+2-  Image verifying : , you should make a hash  signature for both the original evidence and its copy and then compare the two hashes to ensure that the 
+copy is an accurate duplicate of the evidence
+3- Evidence Preservation:  you could put the original evidence in its container again, in a safe place away from humidity, temperature, and other effects
+4- Analysis :  This step include several techniques that depends on  the case type the investigator is handling
+5- Analysis Validation : Any artifact you extract during the analysis should be validated to ensure its soundness 
 
 
 
