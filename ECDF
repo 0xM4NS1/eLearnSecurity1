@@ -1,1 +1,152 @@
 ## ECDF ###
+
+Digital forensics : , which is the recovery and investigation of artifacts found in digital devices, often in relation to a computer crime
+
+Examples of digital evidence are:
+• Pictures produced by cameras
+• Print logs saved on printers
+• Temporary files produced by a web browser
+• Downloaded files
+• Email messages
+• Deleted files
+
+The Scientific Method is a body of techniques for:
+• Investigating phenomena, 
+• Acquiring new knowledge, or
+• Correcting and integrating previous knowledge[1].
+
+The methodology of scientific :
+1-Observing
+2-Collecting data and facts
+3-Finally building a hypothesis based on datta collected
+
+Digital Evidence Life Cycle:
+1-Acquisition
+2-Analysis
+3-Presentation
+
+##Acquisition is the process of obtaining a forensic sound image (physically or remotely) of the evidence to be analyzed. 
+
+
+##If the device was off the acquisition will be easier; all the investigator has to do is:
+
+1-Leave the device off
+2-Put the evidence in a container
+3-Seal the container with tape
+4-Write on the tape
+
+
+
+##Concealment Steps
+
+• Use digital safe containers for evidence keeping, such as: Antistatic bags and antistatic pads.
+• Make sure that those containers are well padded.
+• Write notes on the tape to prevent tampering with the evidence.
+• Ensure that temperature and humidity ranges are adequate for all evidence
+
+
+## The most important thing to consider is preserving the original evidence without alteration ?
+  ANS : you should create a forensic image of the evidence
+
+
+According to your hypothesis, the forensic analysis is conducted to generate one of the following:
+• Inculpatory Evidence: Supports a hypothesis
+• Exculpatory Evidence: Contradicts a hypothesis
+• Tampering Evidence: Indicates system tampering with theaim of deception
+
+
+## presentation : 
+# where you should provide:
+• A report of your analysis results, by mentioning the artifacts you found 
+• Steps you followed to reveal these artifacts
+• The tools used for your analysis.
+
+
+
+TIP: The amount and types of digital evidence you will have to analyze will differ from case to case and depends on different criteria such as: 
+• What evidence you have, 
+• If the evidence you found leads you to other clues, 
+• In situations where there is a large amount of data, you will only need 
+  to extract enough artifacts to incriminate the suspect or explain the incident that occurred.
+
+
+ ### Data types ###
+1- Active Data : This type includes all data and files that are created by the operating system or by a word processor, web browser, mail client,
+  or a scanner such as documents, cached files, emails, and images.
+
+2- Archive and Backup Data:Backup data is created by making an identical copy of original files and folders
+
+3- Hidden Data Types :Metadata, Residual data ,Replicant data
+
+# 1 - Metadata : used to provide context or additional information about data and files , EX Date time ,file structure ,file owner
+
+# 2 - Residual data : • This is deleted data on the disk. An important issue to know is that even after data
+  deletion occurs the data “might” still be there, but you just cannot see it, for example the directory list of your Windows Explorer.
+
+# 3 - Replicant data : this type of data is generated when a program like word processor creates a temporary copy of an 
+opened file, this is needed as a backup to avoid data loss in case an error occurs and the file is forced to close without saving the changes.
+
+Examples of residual data include 
+
+1 - Web cache Temporary 
+2 - directories
+3 - Data blocks resulting from a move
+4 - Memory
+
+Non-volatile data : All previously mentioned types are considered nonvolatile data, and could be retrieved even if the computer has been turned off.
+
+Volatile Data : The data that resides in RAM and is acquired only when the device is running. Collecting volatile data is a perilous task
+
+Computer Network : The network contains the largest amount of data you could ever analyze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
