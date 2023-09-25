@@ -28,6 +28,14 @@ Digital Evidence Life Cycle:
 ##Acquisition is the process of obtaining a forensic sound image (physically or remotely) of the evidence to be analyzed. 
 
 
+ what civil investigations attempt to solve ?
+
+1 - Illegal access 
+2 - and breaches DOS attacks Malware 
+3 - attacks
+
+
+
 ##If the device was off the acquisition will be easier; all the investigator has to do is:
 
 1-Leave the device off
@@ -116,6 +124,24 @@ copy is an accurate duplicate of the evidence
 3- Evidence Preservation:  you could put the original evidence in its container again, in a safe place away from humidity, temperature, and other effects
 4- Analysis :  This step include several techniques that depends on  the case type the investigator is handling
 5- Analysis Validation : Any artifact you extract during the analysis should be validated to ensure its soundness 
+
+
+Thumb drives : ex usb
+RAID (redundant array of independent disks) : is a way of storing the same data in different places on multiple hard disks or solid-state drives (SSDs) to protect data in the case of a drive failure
+
+
+Commingling or Contamination: In a physical laboratory putting chemical material in a vessel with residue of other material will result in 
+mixing the materials together, thus becoming corrupted and invalid as evidence.
+
+
+
+
+
+
+
+
+
+
 
 
 
