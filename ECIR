@@ -108,6 +108,28 @@ Note: Smp run in session layer
 Note : Suricata is a network ips, ids, and security network work engine.
 
 
+action protocol from_ip port -> to_ip port (msg:"we are under attack by X"; content:"something"; content:"something else"; sid:10000000; rev:1;)
+
+action tells the Suricata engine what to do should the contents are matched. It can be:
+
+Alert <- Generate alert and log matching packets, but let the traffic through
+
+Log <- Log traffic (no alert)
+
+Pass <- Ignore the packet and allow it through
+
+Drop <- If in IPS mode, drop the packet
+
+Reject <- IDS will send TCP RST packet(s)
+
+protocol can be: tcp, udp, icmp, ip, http, tls, smb, dns
+
+Outbound traffic $HOME_NET any -> $EXTERNAL_NET any
+
+Inbound traffic $EXTENRAL_NET any -> $HOME_NET any
+
+Bidirectional traffic $EXTENRAL_NET any <> $HOME_NET any
+
 
 
 
