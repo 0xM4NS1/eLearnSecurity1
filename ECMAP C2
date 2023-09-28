@@ -1,0 +1,25 @@
+### Static Analysis ###
+Static Analysis :Analysing a sample without executing it
+
+This method is divided into two different approaches.
+1 - Basic Static Analysis      2 - Advanced Static Analysis
+
+Basi Static Analysis Step :
+1 - File Identification and Classification
+2 - Scanning
+3 - File format Analysis
+4 - Identifying Obfuscation
+
+The methods used in malware analysis to identify files
+1 - File Types 
+2 - File Hashes 
+3 - Strings
+
+
+Note : Every file has a structure that we can identify using the header and may include a trailer or footer.
+Tool to identify the type of file : file or using signture
+Resorce hacker toll used for change icon of file 
+Fuzzy hashing : It is used to compare two files and issue a score of their similarity .
+
+
+
