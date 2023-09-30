@@ -10,6 +10,7 @@ Basi Static Analysis Step :
 3 - File format Analysis
 4 - Identifying Obfuscation
 
+
 The methods used in malware analysis to identify files
 1 - File Types 
 2 - File Hashes 
@@ -20,6 +21,24 @@ Note : Every file has a structure that we can identify using the header and may 
 Tool to identify the type of file : file or using signture
 Resorce hacker toll used for change icon of file 
 Fuzzy hashing : It is used to compare two files and issue a score of their similarity .
+
+### File Format ###
+PE File :(PE File structure)
+1- MS-DOs Header
+2- File Header
+3- Optional Header
+4- Section Headers
+5- Sections
+
+## Types of linking ## 
+1 - Static Linking : At compile time the linker will resolve all the library requirement and copy the library into final executable
+    # Type of Static linking
+2 - Dybamic Linking :
+ # Type of Dynamic linking
+        A - Implicit Linking : The linker will link the library referenced into the program, but the library is not added to 
+            the executable file and is only loaded at execution time.
+            Note: rdata is the suction in the PE structure that holds all the libraries that begin to be imported and the functions referenced.
+        B - explicit linking add library in the code 
 
 
 
