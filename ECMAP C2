@@ -40,5 +40,61 @@ PE File :(PE File structure)
             Note: rdata is the suction in the PE structure that holds all the libraries that begin to be imported and the functions referenced.
         B - explicit linking add library in the code 
 
+### PE File ###
+PE (Portable Executable) : is the binary file format that microsoft windows uses for executable .
+
+File Heqders : (The main file header are)
+1 - MS-DOS Header     2 - Signature    3 - COFF File Header    4 - Optional Header
+
+## 1 - MS-DOS Header   ##
+
+Offset zero : signture Value >> MZ or 0x5A4D
+
+Virtual Address : is just a memory address within that address space
+Relative Virtual address (RVA):which is the address of an item after it is loded into memory w
+
+Three important Note {
+1 - the os dose't have to load all of the image file in memory to execute it (could partially loaded)
+2 - the Address dont have to be contiguously after each other ,the MMU (Memory management Unit) is responsible foe the mapping between Virtual address and physical address
+
+
+## Section Header ##
+1 - text Section : the section have the code to be executed or the program code
+2 - Data section : this header have that includes initialized data
+3 - r data : this is where the import information 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
