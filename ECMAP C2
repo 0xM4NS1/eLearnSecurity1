@@ -64,11 +64,16 @@ Three important Note {
 3 - r data : this is where the import information 
 
 
+### Identifying Obfuscation ###
+1 - Abnormal PE Section : Checking for abnormal section names is not hard .
+2 - API : cheack what api are being used by the sample.
+3 - Entropy : is a mathematical equation used to measure randomness .
 
 
-}
+### Indicators of Compromise (IOCs) ###
+What IOC : any forensic data that is found on a network or host that could with high confidence , identify an intrusion 
 
-
+### YARA : is tool used to help malware researchers identify and classify malware samples
 
 
 
